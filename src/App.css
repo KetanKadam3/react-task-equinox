@@ -25,6 +25,9 @@ p{
 .flex{
   display: flex;
 }
+.flex-wrap{
+  flex-wrap: wrap;
+}
 .justify-evenly{
   justify-content: space-evenly;
 }
@@ -78,7 +81,7 @@ p{
   border-radius: 10px;
   border: none;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 16px;
 
 }
 .header h4 {
@@ -114,7 +117,9 @@ p{
   display: flex;
   justify-content: space-between;
   gap: 10px;
+  flex-wrap: wrap;
 } 
+
 
 .tabs {
   display: flex;

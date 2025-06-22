@@ -10,7 +10,7 @@ const Statsbar = () => (
       }}
     >
       <div
-        className="flex gap-10 justify-evenly "
+        className="flex gap-10 justify-evenly  flex-wrap"
         style={{ borderRight: "1px solid black", paddingRight: "20px" }}
       >
         <div>
@@ -33,7 +33,7 @@ const Statsbar = () => (
         <p className="color-red">Payment</p>
         <p className="color-red">Overdue</p>
       </div>
-      <div className="flex gap-10 justify-evenly">
+      <div className="flex gap-10 justify-evenly flex-wrap">
         <div>
           <p>20,000</p>
 
@@ -57,7 +57,7 @@ const Statsbar = () => (
       </div>
     </div>
 
-    <div className="stats-container-1 p-2 ">
+    <div className="stats-container-1 p-2 gap-10">
       <div>
         <p className="color-grey">Lead Category - Source</p>
 

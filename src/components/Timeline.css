@@ -1,5 +1,6 @@
 .timeline-wrapper {
   max-width: 600px;
+  min-width: 400px;
   margin: 0 auto;
   font-family: Arial, sans-serif;
 }
